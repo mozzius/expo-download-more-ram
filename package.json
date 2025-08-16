@@ -1,7 +1,7 @@
 {
   "name": "expo-download-more-ram",
   "version": "1.0.0",
-  "description": "Config plugin for requesting increased memory limits",
+  "description": "config plugin for requesting increased memory limits",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
