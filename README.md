@@ -6,7 +6,13 @@ Before you reach for this, try reducing the amount of memory your app requires f
 
 Apple in particular does not like it when you add unnecessary entitlements to your app. Use at own risk of App/Play Store rejection!
 
-# Installation
+## Installation
+
+Install the package
+
+```bash
+$ npm install expo-download-more-ram
+```
 
 Add the config plugin to your `app.json` and choose which options you want to enable. By default, all options are enabled.
 
