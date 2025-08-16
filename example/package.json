@@ -6,22 +6,20 @@
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "prebuild": "EXPO_NO_GIT_STATUS=1 expo prebuild --clean"
   },
   "dependencies": {
     "expo": "~53.0.20",
+    "expo-download-more-ram": "link:./../",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-native": "0.79.5",
+    "babel-plugin-module-resolver": "^5.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~19.0.10",
     "typescript": "~5.8.3"
   },
-  "private": true,
-  "expo": {
-    "autolinking": {
-      "nativeModulesDir": ".."
-    }
-  }
+  "private": true
 }

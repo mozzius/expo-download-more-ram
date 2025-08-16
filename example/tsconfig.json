@@ -1,10 +1,6 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true,
-    "paths": {
-      "expo-download-more-ram": ["../src/index"],
-      "expo-download-more-ram/*": ["../src/*"]
-    }
+    "strict": true
   }
 }
