@@ -27,6 +27,15 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-download-more-ram"]
+    "plugins": [
+      [
+        "expo-download-more-ram",
+        {
+          "largeHeap": true,
+          "increasedMemoryLimit": true,
+          "extendedVirtualAddressing": true
+        }
+      ]
+    ]
   }
 }

@@ -2,17 +2,17 @@
 
 Config plugin for requesting increased memory limits
 
-# _Note: this might not pass review by the App/Play Store_
+Before you reach for this, try reducing the amount of memory your app requires first!
 
-They seem to approve it at their discretion - if you don't have a good reason to use this, there's a chance that it will be rejected. Use it responsibly and only when necessary. Before you reach for this, try reducing the amount of memory your app requires first!
+Apple in particular does not like it when you add unnecessary entitlements to your app. Use at own risk of App/Play Store rejection!
 
 # Installation
 
 Add the config plugin to your `app.json` and choose which options you want to enable. By default, all options are enabled.
 
 - Android: Large heap ([docs](https://developer.android.com/guide/topics/manifest/application-element#largeHeap))
-- Increased memory limit ([docs](https://developer.apple.com/documentation/bundleresources/entitlements/com.apple.developer.kernel.increased-memory-limit))
-- Extended virtual addressing ([docs](https://developer.apple.com/documentation/bundleresources/entitlements/com.apple.developer.kernel.extended-virtual-addressing))
+- iOS: Increased memory limit ([docs](https://developer.apple.com/documentation/bundleresources/entitlements/com.apple.developer.kernel.increased-memory-limit))
+- iOS: Extended virtual addressing ([docs](https://developer.apple.com/documentation/bundleresources/entitlements/com.apple.developer.kernel.extended-virtual-addressing))
 
 ```json
 {
