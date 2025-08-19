@@ -1,5 +1,5 @@
 {
-  "name": "expo-download-more-ram-example",
+  "name": "expo-request-more-ram-example",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "expo": "~53.0.20",
-    "expo-download-more-ram": "link:./../",
+    "expo-request-more-ram": "link:./../",
     "react": "19.0.0",
     "react-native": "0.79.5",
     "babel-plugin-module-resolver": "^5.0.2"

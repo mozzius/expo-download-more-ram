@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-download-more-ram-example",
-    "slug": "expo-download-more-ram-example",
+    "name": "expo-request-more-ram-example",
+    "slug": "expo-request-more-ram-example",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "expo.modules.downloadmoreram.example"
+      "bundleIdentifier": "expo.modules.requestmoreram.example"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,14 +22,14 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "expo.modules.downloadmoreram.example"
+      "package": "expo.modules.requestmoreram.example"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       [
-        "expo-download-more-ram",
+        "expo-request-more-ram",
         {
           "largeHeap": true,
           "increasedMemoryLimit": true,

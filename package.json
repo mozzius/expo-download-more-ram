@@ -1,5 +1,5 @@
 {
-  "name": "expo-download-more-ram",
+  "name": "expo-request-more-ram",
   "version": "1.0.0",
   "description": "config plugin for requesting increased memory limits",
   "main": "build/index.js",
@@ -20,13 +20,13 @@
     "react-native",
     "expo"
   ],
-  "repository": "https://tangled.sh/@samuel.bsky.team/expo-download-more-ram",
+  "repository": "https://tangled.sh/@samuel.bsky.team/expo-request-more-ram",
   "bugs": {
-    "url": "https://tangled.sh/@samuel.bsky.team/expo-download-more-ram/issues"
+    "url": "https://tangled.sh/@samuel.bsky.team/expo-request-more-ram/issues"
   },
   "author": "Samuel Newman <mozzius@protonmail.com> (https://tangled.sh/@samuel.bsky.team)",
   "license": "MIT",
-  "homepage": "https://tangled.sh/@samuel.bsky.team/expo-download-more-ram#readme",
+  "homepage": "https://tangled.sh/@samuel.bsky.team/expo-request-more-ram#readme",
   "devDependencies": {
     "@types/react": "~19.0.0",
     "expo": "~53.0.0",

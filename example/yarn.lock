@@ -2254,7 +2254,7 @@ expo-constants@~17.1.7:
     "@expo/config" "~11.0.12"
     "@expo/env" "~1.0.7"
 
-"expo-download-more-ram@link:./..":
+"expo-request-more-ram@link:./..":
   version "0.0.0"
   uid ""
 

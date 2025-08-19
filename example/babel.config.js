@@ -10,7 +10,7 @@ module.exports = function (api) {
           extensions: [".tsx", ".ts", ".js", ".json"],
           alias: {
             // For development, we want to alias the library to the source
-            "expo-download-more-ram": path.join(
+            "expo-request-more-ram": path.join(
               __dirname,
               "..",
               "src",

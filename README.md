@@ -1,4 +1,4 @@
-# expo-download-more-ram
+# expo-request-more-ram
 
 Config plugin for requesting increased memory limits
 
@@ -11,7 +11,7 @@ Apple in particular does not like it when you add unnecessary entitlements to yo
 Install the package
 
 ```bash
-$ npm install expo-download-more-ram
+$ npm install expo-request-more-ram
 ```
 
 Add the config plugin to your `app.json` and choose which options you want to enable. By default, all options are enabled.
@@ -26,7 +26,7 @@ Add the config plugin to your `app.json` and choose which options you want to en
     // etc etc
     "plugins": [
       [
-        "expo-download-more-ram",
+        "expo-request-more-ram",
         {
           "largeHeap": true, // android
           "increasedMemoryLimit": true, // ios

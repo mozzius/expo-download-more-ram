@@ -4,7 +4,7 @@ import {
   withEntitlementsPlist,
 } from "expo/config-plugins";
 
-export default function withDownloadMoreRamPlugin(
+export default function withRequestMoreRamPlugin(
   appConfig: ExportedConfig,
   props: unknown = {}
 ): ExportedConfig {
